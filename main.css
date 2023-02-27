@@ -1,0 +1,81 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+ box-sizing: border-box;
+}
+
+.wrapper{
+ background: linear-gradient(to bottom, rgba(5, 29, 110, 0.822), rgba(80, 95, 179, 0.212)),url("assets/loginBG.jpg");
+ background-repeat: no-repeat;
+ background-size: 100vw 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100vw;
+ height: 100vh;
+}
+
+.login-form{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 1rem;
+ text-align: center;
+ background-color: #357aca;
+ border-radius: 20px;
+ opacity: 0.5;
+ width: 400px;
+ height: 400px;
+
+}
+
+
+.login-form:focus{
+ opacity: 0.9;
+}
+
+input,button{
+ appearance: none;
+ border: none;
+ outline: none;
+ background: none;
+ font-size: 15px;
+ font-weight: 700;
+ color: #142b5c;
+}
+
+input{
+ border-bottom: 2px solid #142b5c;
+}
+
+input::placeholder{
+ color: #142b5c;
+}
+button{
+ border-radius: 30px;
+ background: #252ea5;
+ color: #89a6e4;
+ cursor: pointer;
+}
+
+#form{
+ height: 200px;
+ width: 300px;
+ display: flex;
+ flex-direction: column;
+}
+
+
+#form input{
+ padding: 1rem;
+ margin-top: 1rem;
+}
+
+#form button{
+ padding: 1rem;
+ margin-top: 1rem;
+ 
+}
